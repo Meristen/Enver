@@ -36,6 +36,9 @@ body {
   transition: 0.3s;
   font-size: var(--nav-size);
 }
+.navbar__menu {
+  display: none;
+}
 
 .navbar a:hover {
   color: var(--secondary-color);
