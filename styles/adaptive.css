@@ -82,6 +82,9 @@
   .container p {
     font-size: 15px;
   }
+  .hero .wrapper {
+    margin: 20px;
+  }
   .item__title {
     font-size: 20px;
   }
@@ -91,6 +94,12 @@
   .services-title {
     font-size: 40px;
   }
+  .services {
+    margin-top: 70px;
+  }
+  .services-list {
+    row-gap: 30px;
+  }
   .services-list__item img {
     width: 69px;
   }
@@ -99,6 +108,16 @@
   .container {
     max-width: 100%;
   }
+  .hero .wrapper {
+    margin: 20px;
+  }
+  .services {
+    margin-top: 70px;
+  }
+  .services-list {
+    row-gap: 30px;
+  }
+
   h1 {
     font-size: 30px;
     line-height: 57px;

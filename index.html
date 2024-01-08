@@ -11,6 +11,14 @@
   <body>
     <div class="container">
       <nav class="navbar">
+        <div class="test">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href=""> Services</a></li>
+            <li><a href=""> Our Project</a></li>
+            <li><a href=""> About us</a></li>
+          </ul>
+        </div>
         <div>
           <img src="./images/logo.png" alt="Enver logo" />
         </div>
@@ -182,5 +190,20 @@
         </nav>
       </div>
     </footer>
+
+    <script>
+      let menu = document.querySelector(".menu");
+      let ul = document.querySelector(".test");
+      let count = 1;
+      menu.addEventListener("click", () => {
+        console.log(ul);
+        if (count % 2 === 0) {
+          ul.style.display = "none";
+        } else {
+          ul.style.display = "block";
+        }
+        count++;
+      });
+    </script>
   </body>
 </html>
